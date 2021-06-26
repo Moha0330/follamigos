@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charest="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=no" />
+	<title>Volvamos a xingar</title>
+	<link rel="icon" href="icono.png">
+	
+	<meta property="og:site_name" content="😈FOLLAMIGOS😈">
+	<meta property="og:title" content="😈Follamigos😈">
+	<meta property="og:image" content="./icono.png">
+	<meta property="og:url" content="https://volvamos-a-chingar.com">
+	<meta property="al:ios:app_name" content="😈FOLLAMIGOS😈">
+	<meta property="al:android:url" content="https://www.volvamos-a-chingar.com">
+	
+</head>
+
+<body>
+	<div class="container">
+		<span style="--1: '&iquest;QUIERES';">&iquest;QUIERES </span>
+		<span style="--1: 'SER';">SER </span>
+		<span style="--1: 'MI';">MI </span>
+		<span style="--1: 'FOLLA-';">FOLLA-</span>
+		<span style="--1: 'AMIGA?';">AMIGA?</span>
+	</div>
+
+	<a href="https://api.whatsapp.com/send?phone=34642282436&text=Ahoritaa%20te%20env%C3%ADo%20una%20fotito%20del%20PEPE%F0%9F%A5%BA%F0%9F%A5%BA%20" class="btn-neon" id="si">S&Iacute;</a>
+	<a href="#" class="btn-neon" id="no">NO</a>
+<audio autoplay loop>
+				<source src="song.mp3" type="audio/mpeg" />
+				<source src="song.ogg" type="audio/mpeg" />
+								Su culo es tan hermoso que ni la cancion escucharás
+</audio>
+</body>
+
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		min-height: 100vh;
+		display: flex;
+		background: -webkit-radial-gradient(#a945c7,#0a0011);
+		justify-content: center;
+		align-items: center;
+	}
+	.container span{
+		font-size: 50pt;
+		font-weight: bold;
+		position: relative;
+		font-family: "Fredoka One";
+		cursor: pointer;
+		transition: all 300ms ease-in-out;
+	}
+	.container span::before{
+		content: var(--1);
+		position: absolute;
+		transform: scale(1.1);
+		filter: blur(15px);
+	}
+	.container span::after{
+		content: var(--1);
+		position: absolute;
+		height: 200%;
+		width: 300px;
+		top: 80%;
+		left: 0;
+		filter: blur(30px);
+		transform: rotateX(50deg);
+	}
+	.container span:hover{
+		filter: contrast(300%);
+	}
+	.container span:nth-child(1){
+		color: #00bef8;
+	}
+	.container span:nth-child(2){
+		color: #ff0697;
+	}
+	.container span:nth-child(3){
+		color: #ff4d00;
+	}
+	.container span:nth-child(4){
+		color: #ffe600;
+	}
+	.container span:nth-child(5){
+		color: #bb00ff;
+	}
+	.btn-neon{
+		position: absolute;
+		top: 80%;
+		transform: translateY(-50%);
+		text-decoration: none;
+		background: #000;
+		color: #fff;
+		padding: 20px 35px;
+		font-size: 20px;
+		border-radius: 4px;
+		overflow: hidden;
+		transition: 0.2s;
+		font-family: consolas;
+		letter-spacing: 2px;
+	}
+	.btn-neon:hover{
+		background: #a945c7;
+		box-shadow: 5px 6px 20px #a945c7;
+	}
+	#si{
+		left: 20%;
+		transform: translateY(-50%) translateX(-20%);
+	}
+	#no{
+		left: 80%;
+		transform: translateY(-50%) translateX(-80%);
+	}
+</style>
+<script>
+	let si = document.getElementById('si')
+	si.addEventListener("click", function (e) {
+		alert("Muy bien guarra, ahora me mandas una foto del PEPE")
+	});
+
+	let no=document.getElementById('no')
+	no.addEventListener("mousemove", function (e) {
+		let x = Math.round(Math.random() * 93);
+		let y = Math.round(Math.random() * 93);
+		no.style.left = x + "%";
+		no.style.top = y + "%";
+	});
+</script>
