@@ -3,9 +3,10 @@
 
 <head>
 	<meta charest="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1", user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Volvamos a xingar</title>
 	<link rel="icon" href="icono.png">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	
 	<meta property="og:site_name" content="😈FOLLAMIGOS😈">
 	<meta property="og:title" content="😈Follamigos😈">
@@ -25,13 +26,23 @@
 		<span style="--1: 'AMIGA?';">AMIGA?</span>
 	</div>
 
-	<a href="https://api.whatsapp.com/send?phone=34642282436&text=Ahoritaa%20te%20env%C3%ADo%20una%20fotito%20del%20PEPE%F0%9F%A5%BA%F0%9F%A5%BA%20" class="btn-neon" id="si">S&Iacute;</a>
+	<a href="https://api.whatsapp.com/send?phone=34642282436&text=Ahoritaa%20te%20env%C3%ADo%20una%20fotito%20del%20PEPE%F0%9F%A5%BA%F0%9F%A5%BA%20" traget="_blank" class="btn-neon" id="si">S&Iacute;</a>
 	<a href="#" class="btn-neon" id="no">NO</a>
-<audio autoplay loop>
-				<source src="song.mp3" type="audio/mpeg" />
-				<source src="song.ogg" type="audio/mpeg" />
-								Su culo es tan hermoso que ni la cancion escucharás
+
+	<div class="social-menu">
+		<ul>
+			<li><a href="https://www.instagram.com/priince.03" traget="_blank"><i class="fa fa-instagram"></i></a></li>
+			<li><a href="https://api.whatsapp.com/send?phone=34642282436" traget="_blank"><i class="fa fa-whatsapp"></i></a></li>
+			<li><a href="https://www.facebook.com/mohamed.rebelde" traget="_blank"><i class="fa fa-facebook"></i></a></li>
+		</ul>
+	</div>
+
+	<audio autoplay loop>
+		<source src="song.mp3" type="audio/mpeg" />
+		<source src="song.ogg" type="audio/mpeg" />
+			Su culo es tan hermoso que ni la cancion escucharás
 </audio>
+
 </body>
 
 <style>
@@ -116,6 +127,57 @@
 		left: 80%;
 		transform: translateY(-50%) translateX(-80%);
 	}
+
+	.social-menu ul{
+		position: absolute;
+		top: 90%;
+		left: 90%;
+		padding: 0;
+		margin: 0;
+		transform: translate(-50%, -50%);
+		display: flex;
+	}
+	.social-menu ul li{
+		list-style: none;
+		margin: 0 15px;
+	}
+	.social-menu ul li .fa{
+		font-size: 21px;
+		line-height: 35px;
+		transition: .6s;
+		color: #000;
+	}
+	.social-menu ul li .fa:hover{
+		color: #fff;
+	}
+	.social-menu ul li a{
+		position: relative;
+		display: block;
+		width: 35px;
+		height: 35px;
+		border-radius: 50%;
+		background: -webkit-radial-gradient(#8b20ab,#0a0011);
+		text-align: center;
+		transition: .6s;
+		box-shadow: 0 5px 4px rgba(0,0,0,.5);
+	}
+	.social-menu ul li a:hover{
+		box-shadow: 0 5px 4px #a945c7;
+		transform: translate(0, -10px);
+	}
+	.social-menu ul li:nth-child(1) a:hover{
+        	box-shadow: 0 0 10px #e4405f;
+		background: -webkit-radial-gradient(#ee1d51,#e4405f);
+	}
+	.social-menu ul li:nth-child(2) a:hover{
+        	box-shadow: 0 0 10px #25d366;
+		background: -webkit-radial-gradient(#09b83e,#25d366);
+	}
+	.social-menu ul li:nth-child(3) a:hover{
+        	box-shadow: 0 0 10px #3b5999;
+		background: -webkit-radial-gradient(#0061ff,#3b5999);
+	}
+
 </style>
 <script>
 	let si = document.getElementById('si')
